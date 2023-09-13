@@ -34,6 +34,7 @@ export default function State() {
         
      {/*숙제*/}
      {/*인풋에 글자를 입력한 텍스트가 그대로 출력되게 만들어주세요*/}
+     <input type="text" />
      <p className='your-input'> 당신의 입력 : {} </p>
     </div>
 
