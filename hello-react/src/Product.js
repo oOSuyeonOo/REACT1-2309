@@ -6,6 +6,7 @@ export default function Product() {
         {/*<img src='' alt=''></img>*/}
         <div className='temp-img'></div>
         <p>상품명</p>
+
     </div>
   )
 }

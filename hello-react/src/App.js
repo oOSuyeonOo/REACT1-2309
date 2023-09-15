@@ -6,10 +6,16 @@ import './css/index.css'
 
 import image from './image/usp_a.jpg'
 import State from './State'
+import EventEdu from './EventEdu'
+
+import {useState} from 'react';
 
 
 
 function App() {
+    
+    const [isEnter,setIsEnter] = useState('24시간 언제나');
+   
   return (
 
     <div classNameName="App">
@@ -74,10 +80,23 @@ function App() {
             모든 순간, 쏘카
         </h2>
     </section>
+
+    <hr />
+    <hr />
+    <hr />
+    <EventEdu></EventEdu>
+    <hr />
+    <hr />
+    <hr />
+    <hr />
     <main>
         <section id="advantages-container">
             <div className="advantage">
-                <h2>24시간 언제나</h2>
+                <h2 onClick={() => {
+                    setIsEnter('클릭된 제목입니다.')
+                }}>
+                    {isEnter}
+                </h2>
                 <p>
                     한밤중이나 주말에도 스마트폰으로
                     <br/>
