@@ -19,3 +19,5 @@ node 설치확인
     F1 -> Open setting(Json)
     "emmet.includeLanguages": { "javascript": "javascriptreact" },
     
+    리엑트라이브 실행
+    cd - 폴더이름(hello-react) - npm start 
